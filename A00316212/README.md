@@ -6,7 +6,7 @@
 **Correo:** daniel.barragan at correo.icesi.edu.co  
 **Estudiante** Jhon Eduar Tobar Gómez 
 **Código** A00316212  
-**URL GitHub**  
+**URL GitHub** https://github.com/Jhongomez6/so-exam1
 
 ### Objetivos
 * Conocer y emplear comandos de Linux para la realización de tareas administrativas
@@ -29,4 +29,4 @@ El primer parcial del curso sistemas operativos trata sobre el manejo de los com
   * remove_duplicated_lines
   * disp_table
   
-  ### Solución Retos cmdchallenge
+  ### **Solución Retos cmdchallenge**
