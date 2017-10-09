@@ -98,7 +98,7 @@ Vemos que hay distintos archivos nombrados con nombres y apellidos separados por
    
    ![GitHub Logo2](Resources/table.PNG)
    
-    ### **Segunda actividad : solución script**
+    ### ** Segunda actividad: solución script **
     
    En este punto se requiere desarrollar un script que cumpla con las siguientes condiciones:
     
@@ -150,9 +150,9 @@ Teniendo en cuenta esto, lo primero que se debe hacer es ejecutar el comando cro
    
    Luego de añadirla y guardar los cambios, podemos evidenciar que la tarea ha sido automatizada y que efectivamente se ejecuta el script cada 5 minutos y nos descarga libros nuevos:
    
-    ![GitHub Logo2](Resources/crontab.PNG)
+   ![GitHub Logo2](Resources/crontab.PNG)
     
-     ### **Tercer actividad : rickroll.c**
+  ### ** Tercer actividad : rickroll.c **
     
     
    
