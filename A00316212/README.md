@@ -22,14 +22,22 @@ El primer parcial del curso sistemas operativos trata sobre el manejo de los com
 
 ### Actividades
 
-Resuelva los siguienes retos de la página https://cmdchallenge.com y presente la solución a cada uno de ellos a través de un ejemplo práctico en CentOS7. Presente capturas de pantalla relevantes como evidencias de lo realizado (20%)
+1. Resuelva los siguienes retos de la página https://cmdchallenge.com y presente la solución a cada uno de ellos a través de un ejemplo práctico en CentOS7. Presente capturas de pantalla relevantes como evidencias de lo realizado (20%)
   * sum_all_numbers
   * replace_spaces_in_filenames
   * reverse_readme
   * remove_duplicated_lines
   * disp_table
   
-  ### **Solución Retos cmdchallenge**
+ 2. Realice un script que cumpla las condiciones que se describen a continuación. Presente capturas de pantalla relevantes como evidencias del funcionamiento (30%)
+   * El usuario gutenberg debe existir en el sistema operativo
+   * El script se debe ejecutar cada 5 minutos, consulte el manual de crontab
+   * EL script debe descargar un libro del proyecto https://www.gutenberg.org/ en el directorio /home/gutenberg/mybooks
+   * Si ya existe un libro en el directorio mybooks, debe ser reemplazado
+   
+3. Describa el funcionamiento del código fuente rickroll.c del repositorio de github https://github.com/jvns/kernel-module-fun. Muestre el funcionamiento al compilar el código y cargarlo como un módulo del kernel a través de un video que deberá cargar en Youtube e incluir el enlace en el informe (30%). Se recomienda emplear el sistema operativo Ubuntu con interfaz gráfica para esta prueba.
+  
+  ### **Primera actividad: solución retos cmdchallenge**
  
   
   En este punto se resuelven 5 retos de la pagina https://cmdchallenge.com y se comprueba que la solución mediante un ejemplo practico en centOS7. 
@@ -58,7 +66,7 @@ Aplicamos el mismo comando en CentOS7:
 
 Vemos que hay distintos archivos nombrados con nombres y apellidos separados por espacios y el resultado efectivamente es que se cambian los espacios por puntos.
 
-**Tercer reto** reverse_readme
+**Tercer reto:** reverse_readme
   
   Para cumplir el tercer reto se debe invertir el orden en que se imprime un archivo README. Es decir, la ultima linea debe quedar como la primera y la primera como la ultima.
   
@@ -89,6 +97,11 @@ Vemos que hay distintos archivos nombrados con nombres y apellidos separados por
    ![GitHub Logo2](Resources/table.reto.PNG)
    
    ![GitHub Logo2](Resources/table.PNG)
+   
+    ### **Segunda actividad : solución script**
+    
+    
+ 
    
   
   
