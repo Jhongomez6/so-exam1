@@ -34,7 +34,7 @@ Resuelva los siguienes retos de la página https://cmdchallenge.com y presente l
   
   En este punto se resuelven 5 retos de la pagina https://cmdchallenge.com y se comprueba que la solución mediante un ejemplo practico en centOS7. 
   
- *sum_all_numbers
+ **Primer reto:** sum_all_numbers
  
  Para el primer reto, se tiene una lista de numeros en un archivo de texto plano, los cuales deben ser sumados y mostrar el resultado de dicha operación.
 
@@ -46,7 +46,7 @@ Resuelva los siguienes retos de la página https://cmdchallenge.com y presente l
  
  Podemos evidenciar que la suma de los numeros del archivo de texto se hace correctamente.
 
-* replace_spaces_in_filenames
+**Segundo reto:** replace_spaces_in_filenames
 
 En el segundo reto se tienen distintos archivos en un directorio en los cuales los nombres de dichos archivos contienen espacios. Para cumplir el reto se deben reemplazar todos los espacios de dichos nombres de archivos por puntos.
 
@@ -58,7 +58,7 @@ Aplicamos el mismo comando en CentOS7:
 
 Vemos que hay distintos archivos nombrados con nombres y apellidos separados por espacios y el resultado efectivamente es que se cambian los espacios por puntos.
 
-  * reverse_readme
+**Tercer reto** reverse_readme
   
   Para cumplir el tercer reto se debe invertir el orden en que se imprime un archivo README. Es decir, la ultima linea debe quedar como la primera y la primera como la ultima.
   
@@ -72,8 +72,23 @@ Vemos que hay distintos archivos nombrados con nombres y apellidos separados por
   
   Podemos evidenciar que el orden de impresión de las lineas del archivo se ha invertido correctamente.
   
-   * remove_duplicated_lines
+  **Cuarto reto:** remove_duplicated_lines
+  
+  Para cumplir este reto se debe eliminar instancias o lineas repetidas de un archivo de texto. Es decir, no debe haber ninguna linea duplicada, solamente se imprime la primera vez que aparece cada linea.
+  
+  ![GitHub Logo2](Resources/duplicated.reto.PNG)
+  
+  Aplicando el mismo comando en CentOS7 podemos ver que imprime un instancia por cada linea y elimina los duplicados.
+  
+  ![GitHub Logo2](Resources/duplicated.PNG)
+  
+  **Quinto reto:**  *disp_table
+  
+  Por ultimo, tenemos un reto muy sencillo que se trata de tomar un archivo CSV e imprimirlo como un tabla.
+  
+   ![GitHub Logo2](Resources/table.reto.PNG)
    
+   ![GitHub Logo2](Resources/table.PNG)
    
   
   
