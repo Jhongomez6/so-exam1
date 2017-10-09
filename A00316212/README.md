@@ -153,7 +153,35 @@ Teniendo en cuenta esto, lo primero que se debe hacer es ejecutar el comando cro
     
   ### **Tercer actividad : rickroll.c**
   
+El código del repositorio de github https://github.com/jvns/kernel-module-fun basicamente tiene como objetivo que cuando un usuario intente reproducir un MP3 en realidad se reproduzca otro MP3 diferente que se encuenta por defecto y en este caso es Never Gonna Give You Up by Rick Astley. Todo esto se hace mediante llamados al sistema o *systemcalls*, modificaciones en el kernel y "seteando" la ruta del archivo MP3.
+
+En la primera parte del códgio podemos ver los modulos necesarios para realizar las llamadas al sistema:
+
+ ![GitHub Logo2](Resources/rick1.PNG)
+ 
+Ahora se definen las variables DISABLE_WRITE_PROTECTION y ENABLE_WRITE_PROTECTION las cuales modifican un archivo especifico que se encarga de proteger contra escritura bloques de memoria asignado para los *systemcalls*
+ 
+ ![GitHub Logo2](Resources/rick2.PNG)
   
+  
+  Luego mediante un metodo init. Fija los parametros y adecua e entorno para realizar los llamados al sistema:
+  
+   ![GitHub Logo2](Resources/rick3.PNG)
+   
+   
+  Luego, se verifica que el archivo sea de extension .mp3 y se utiliza la llamada al sistema sys_open
+  
+  Esta llamada al sistema verifica si el nombre de archivo que se da como parametro esta apuntando a un espacio de memoria del usuario.
+  Luego el nombre de archivo pasa al kernel. El autor del codigo define fs como el segmento que es usado para el memoria del usuario y entonces cambia este segmento con el del kernel.
+  
+  
+   ![GitHub Logo2](Resources/rick4.PNG)
+   
+   Luego en el metodo exit reestablece el sysopen en la tabla de llamdas al sistema.
+   
+    ![GitHub Logo2](Resources/rick5.PNG)
+   
+  
     
     
    
