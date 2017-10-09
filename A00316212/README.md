@@ -4,7 +4,7 @@
 **Docente:** Daniel Barragán C.  
 **Tema:** Comandos de Linux, Virtualización  
 **Correo:** daniel.barragan at correo.icesi.edu.co  
-**Estudiante:** Jhon Eduar Tobar Gómez 
+**Estudiante:** Jhon Eduar Tobar Gómez  
 **Código:** A00316212  
 **URL GitHub:** https://github.com/Jhongomez6/so-exam1 
 
@@ -38,11 +38,43 @@ Resuelva los siguienes retos de la página https://cmdchallenge.com y presente l
  
  Para el primer reto, se tiene una lista de numeros en un archivo de texto plano, los cuales deben ser sumados y mostrar el resultado de dicha operación.
 
- ![GitHub Logo2](Resources/sum.PNG)
+![GitHub Logo2](Resources/sum.reto.PNG)
  
  Ahora bien, utilizando este mismo comando, lo aplicamos en un ejemplo basico en centOS7:
  
- ![GitHub Logo2](Resources/sum.reto.PNG)
+ ![GitHub Logo2](Resources/sum.PNG)
+
+* replace_spaces_in_filenames
+
+En el segundo reto se tienen distintos archivos en un directorio en los cuales los nombres de dichos archivos contienen espacios. Para cumplir el reto se deben reemplazar todos los espacios de dichos nombres de archivos por puntos.
+
+![GitHub Logo2](Resources/replace.reto.PNG)
+
+Aplicamos el mismo comando en CentOS7:
+
+![GitHub Logo2](Resources/replace.reto.PNG)
+
+Vemos que hay distintos archivos nombrados con nombres y apellidos separados por espacios y el resultado efectivamente es que se cambian los espacios por puntos.
+
+  * reverse_readme
+  
+  Para cumplir el tercer reto se debe invertir el orden en que se imprime un archivo README. Es decir, la ultima linea debe quedar como la primera y la primera como la ultima.
+  
+  Evidencia del cumplimiento del reto en cmdchallenge.com::
+  
+  ![GitHub Logo2](Resources/Reverse.reto.PNG)
+  
+  Ahora se implementa la solución en CentOS7:
+  
+  ![GitHub Logo2](Resources/reverse.reto.PNG)
+  
+  Podemos evidenciar que el orden de impresión de las lineas del archivo se ha invertido correctamente.
+  
+  
+
+
+
+
  
  
  
