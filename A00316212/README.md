@@ -98,7 +98,7 @@ Vemos que hay distintos archivos nombrados con nombres y apellidos separados por
    
    ![GitHub Logo2](Resources/table.PNG)
    
-   ### **Segunda actividad: SCRIPT **
+   ### **Segunda actividad: SCRIPT**
     
    En este punto se requiere desarrollar un script que cumpla con las siguientes condiciones:
     
@@ -151,7 +151,9 @@ Teniendo en cuenta esto, lo primero que se debe hacer es ejecutar el comando cro
    
    ![GitHub Logo2](Resources/crontab.PNG)
     
-  ### ** Tercer actividad : rickroll.c **
+  ### **Tercer actividad : rickroll.c**
+  
+  
     
     
    
