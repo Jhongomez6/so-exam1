@@ -179,7 +179,7 @@ Ahora se definen las variables DISABLE_WRITE_PROTECTION y ENABLE_WRITE_PROTECTIO
    
    Luego en el metodo exit reestablece el sysopen en la tabla de llamdas al sistema.
    
-    ![GitHub Logo2](Resources/rick5.PNG)
+   ![GitHub Logo2](Resources/rick5.PNG)
    
   
     
