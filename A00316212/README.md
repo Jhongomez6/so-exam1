@@ -1,6 +1,6 @@
 ### Solución examen #1
 **Universidad ICESI**  
-**Curso:** Sistemas Operativos 
+**Curso:** Sistemas Operativos  
 **Docente:** Daniel Barragán C.  
 **Tema:** Comandos de Linux, Virtualización  
 **Correo:** daniel.barragan at correo.icesi.edu.co  
@@ -40,9 +40,11 @@ Resuelva los siguienes retos de la página https://cmdchallenge.com y presente l
 
 ![GitHub Logo2](Resources/sum.reto.PNG)
  
- Ahora bien, utilizando este mismo comando, lo aplicamos en un ejemplo basico en centOS7:
+ Ahora bien, utilizando este mismo comando, lo aplicamos mediante un ejemplo basico en centOS7:
  
  ![GitHub Logo2](Resources/sum.PNG)
+ 
+ Podemos evidenciar que la suma de los numeros del archivo de texto se hace correctamente.
 
 * replace_spaces_in_filenames
 
@@ -52,7 +54,7 @@ En el segundo reto se tienen distintos archivos en un directorio en los cuales l
 
 Aplicamos el mismo comando en CentOS7:
 
-![GitHub Logo2](Resources/replace.reto.PNG)
+![GitHub Logo2](Resources/replace.PNG)
 
 Vemos que hay distintos archivos nombrados con nombres y apellidos separados por espacios y el resultado efectivamente es que se cambian los espacios por puntos.
 
@@ -62,13 +64,17 @@ Vemos que hay distintos archivos nombrados con nombres y apellidos separados por
   
   Evidencia del cumplimiento del reto en cmdchallenge.com::
   
-  ![GitHub Logo2](Resources/Reverse.reto.PNG)
+  ![GitHub Logo2](Resources/reverse.reto.PNG)
   
   Ahora se implementa la solución en CentOS7:
   
-  ![GitHub Logo2](Resources/reverse.reto.PNG)
+  ![GitHub Logo2](Resources/Reverse.PNG)
   
   Podemos evidenciar que el orden de impresión de las lineas del archivo se ha invertido correctamente.
+  
+   * remove_duplicated_lines
+   
+   
   
   
 
