@@ -98,7 +98,7 @@ Vemos que hay distintos archivos nombrados con nombres y apellidos separados por
    
    ![GitHub Logo2](Resources/table.PNG)
    
-   ### ** Segunda actividad: solucion script **
+   ### **Segunda actividad: SCRIPT **
     
    En este punto se requiere desarrollar un script que cumpla con las siguientes condiciones:
     
@@ -134,7 +134,7 @@ Vemos que hay distintos archivos nombrados con nombres y apellidos separados por
    
    Las tareas de crontab siguen la siguiente sintaxis: 
    
-   * * * * *  bin/ejecutar/script.sh
+ ![GitHub Logo2](Resources/asteriscos.PNG)
 
 De izquierda a derecha, los asteriscos representan:
 Minutos: de 0 a 59.
@@ -145,7 +145,7 @@ Día de la semana: de 0 a 6, siendo 0 el domingo.
 
 Teniendo en cuenta esto, lo primero que se debe hacer es ejecutar el comando crontab -e el cual nos permitirá añadir nuestra tarea para que sea automatizada.
    
-   ![GitHub Logo2](Resources/Crontab -e.PNG)
+   ![GitHub Logo2](Resources/crontabe.PNG)
    
    Luego de añadirla y guardar los cambios, podemos evidenciar que la tarea ha sido automatizada y que efectivamente se ejecuta el script cada 5 minutos y nos descarga libros nuevos:
    
