@@ -98,7 +98,7 @@ Vemos que hay distintos archivos nombrados con nombres y apellidos separados por
    
    ![GitHub Logo2](Resources/table.PNG)
    
-    ### ** Segunda actividad: solución script **
+   ### ** Segunda actividad: solucion script **
     
    En este punto se requiere desarrollar un script que cumpla con las siguientes condiciones:
     
@@ -134,7 +134,7 @@ Vemos que hay distintos archivos nombrados con nombres y apellidos separados por
    
    Las tareas de crontab siguen la siguiente sintaxis: 
    
-   * * * * * /bin/ejecutar/script.sh
+   * * * * *  bin/ejecutar/script.sh
 
 De izquierda a derecha, los asteriscos representan:
 Minutos: de 0 a 59.
@@ -144,7 +144,6 @@ Mes: de 1 a 12.
 Día de la semana: de 0 a 6, siendo 0 el domingo.
 
 Teniendo en cuenta esto, lo primero que se debe hacer es ejecutar el comando crontab -e el cual nos permitirá añadir nuestra tarea para que sea automatizada.
-   
    
    ![GitHub Logo2](Resources/Crontab -e.PNG)
    
